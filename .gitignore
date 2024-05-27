@@ -1,0 +1,20 @@
+# Directorios a ignorar
+node_modules/
+coverage/
+dist/
+.vscode/
+
+# Archivos específicos a ignorar
+.env
+.env.local
+.env.*.local
+*.log
+npm-debug.log*
+
+# Dependiendo de tus preferencias de editor/IDE, podrías querer ignorar configuraciones de entorno específicas
+.idea/
+*.sublime-*
+
+# Dependiendo de tu sistema operativo, podrías querer ignorar archivos generados por el sistema
+.DS_Store
+Thumbs.db
